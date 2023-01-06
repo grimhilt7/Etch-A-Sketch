@@ -1,0 +1,27 @@
+.panel {
+  width: 960px;
+  height: 960px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  height: 100%;
+}
+
+.col {
+  background-color: white;
+  border: 1px black solid;
+  margin: 2px;
+  width: 100%;
+  /* hover off */
+  transition: background-color 3s;
+}
+
+.col:hover {
+  background-color: black;
+  /* hover on */
+  transition: background-color 0s;
+}
