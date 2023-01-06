@@ -25,13 +25,16 @@ body {
   border: 1px black solid;
   margin: 1px;
   width: 100%;
-  /* hover off */
-  transition: background-color 3s;
+  /* mouseover off */
+  transition: background-color 1s ease-out;
 }
 
-.col:hover {
+.trail-black {
   background-color: black;
-  /* hover on */
+  transition: background-color 0s;
+}
+
+.trail-colorful {
   transition: background-color 0s;
 }
 
@@ -39,9 +42,13 @@ body {
   width: 200px;
   height: 30px;
   border: none;
-  background-color: beige ;
+  background-color: beige;
 }
 
 .buttons button:hover {
   background-color: darkorange;
+}
+
+.stroke {
+  font-size: 2em;
 }
